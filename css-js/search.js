@@ -32,5 +32,25 @@ function clickButton() {
         var URL = "https://" + thmasInputText.value;
         var win = window.open(URL, "_blank");
     }
+    if (value === "ddg") {
+        var URL = "https://duckduckgo.com/?t=h_&q=" + thmasInputText.value;
+        var win = window.open(URL, "_blank");
+    }
+    if (value === "aol") {
+        var URL = "https://search.aol.com/aol/search?q=" + thmasInputText.value;
+        var win = window.open(URL, "_blank");
+    }
+    if (value === "swissc") {
+        var URL = "https://swisscows.com/en/web?query=" + thmasInputText.value;
+        var win = window.open(URL, "_blank");
+    }
+    if (value === "yout") {
+        var URL = "https://www.youtube.com/results?search_query=" + thmasInputText.value;
+        var win = window.open(URL, "_blank");
+    }
+    if (value === "twitter") {
+        var URL = "https://twitter.com/search?q=" + thmasInputText.value;
+        var win = window.open(URL, "_blank");
+    }
         
 }
