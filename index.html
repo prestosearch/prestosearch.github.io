@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
     <head>
         
@@ -16,7 +16,7 @@
 
         <link rel="stylesheet" href="./css-js/style.css">
         <link rel="icon" type="image/png" href="favicon.png">
-    
+        
     </head>
 
 <body>
@@ -25,7 +25,10 @@
 
         <br>
 
-        <img src="logo.png" alt="PrestoSearch! LOGO" width="665px" height="101px">
+        <h2>
+            <a href="./index.html"><img src="logo.png" alt="PrestoSearch! LOGO" width="665px" height="101px"></a>
+            Prototype
+        </h2>
 
         <form>
             <label for="choo">Choose a site to search:</label> 
@@ -39,16 +42,27 @@
                 <option value="link">Link</option> 
                 <option value="yout">Youtube</option>
                 <option value="twitter">Twitter</option>
+                <option value="goon">Google News</option>
                 <option value="stacover">Stack Overflow</option> 
                 <option value="debian">Debian</option>
                 <option value="nyt">New York Times</option>
+                <option value="redhat">Redhat</option>
+                <option value="plf">Puppy Linux Fourms</option>
+                <option value="diswat">Distrowatch</option>
+                <option value="reddit">Reddit</option> 
+                <option value="tik">Tiktok</option>
+                <option value="lifewire">Lifewire</option>
+                <option value="github">Github</option>
+                <option value="wikiped">Wikipedia</option> 
+                <option value="yandex">Yandex</option>
+                <option value="scratch">Scratch</option>
             </select>
         </form>
 
-        <div onKeyPress="return myFunction(event)">
+        <div onKeyPress="return searchit(event)">
             <form>
-                <input class="buttonc" id="thmas-input-text" type="text">
-                <input class="buttonc" id="thmas-button" type="button" onclick="myFunction(0)" value="Search!">
+                <input placeholder="Search Goes Here..." class="buttonc" id="thmas-input-text" type="text">
+                <input class="buttonc" id="thmas-button" type="button" onclick="searchit(0)" value="Search!">
             </form>
         </div>
         
@@ -63,6 +77,12 @@
                 <a href="./about.html">About!</a>
             </button>
         </p>
+        
+        <button class="buttonc" onclick="dark()">Dark Mode</button>
+
+        <br>
+        <br>
+
         <p>
             There are currently <strong>12</strong> ways to search!
         </p>
@@ -79,7 +99,10 @@
 
     </center>
 
+
     <script src="./css-js/search.js"></script>
+    <script src="./css-js/dark.js"></script>
+
   
 </body>
 
