@@ -5,19 +5,34 @@ h1 {
 }
 
 body {
+    background-color: rgb(20, 20, 20);
+    color: rgb(231, 231, 231);
     font-family: "Ubuntu", sans-serif;
-    color: rgb(150, 0, 0);
-    background-color: rgb(29, 29, 29);
     line-height: 1.1;
-}
+  }
 
 a {
     text-decoration: none;
     color: rgb(209, 0, 0);
 }
 
+.dark-mode {
+    background-color: rgb(230, 230, 230);
+    color: rgb(14, 14, 14);
+}
+
 .buttonc {
     font-family: "Ubuntu", sans-serif;
     color: rgb(150, 0, 0);
     background-color: rgb(204, 204, 204);
+}
+
+h2 {
+    font-size: 36px;
+    color: rgb(150, 0, 0);
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(150, 0, 0);
 }
