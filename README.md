@@ -1,4 +1,4 @@
-![LOGO](logo.png)
+![LOGO](logo.png) README
 
 # PrestoSearch - Host Reposotory
 
