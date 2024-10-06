@@ -1,4 +1,4 @@
-![LOGO](./img/logo.pnglogo.png)
+![LOGO](./img/logo.png)
 
 # Host Reposotory
 
