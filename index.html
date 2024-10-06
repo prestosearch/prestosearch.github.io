@@ -27,35 +27,41 @@
         <form>
             <label for="choo">Choose a site to search:</label> 
             <select class="selectSite" name="choo" id="choo">
+                <option value="Google">Google</option>
+                <option value="Yahoo">Yahoo</option>
                 <option value="DuckDuckGo">DuckDuckGo</option>
-                <option value="google">Google</option>
-                <option value="bing">Bing</option>
-                <option value="yahoo">Yahoo</option>
-                <option value="aol">Aol</option>
-                <option value="swissc">Swisscows</option>
-                <option value="link">Link</option>
-                <option value="yout">Youtube</option>
-                <option value="twitter">Twitter</option>
-                <option value="goon">Google News</option>
+                <option value="Bing">Bing</option>
+                <option value="America Online">America Online</option>
+                <option value="Swisscows">Swisscows</option>
+                <option value="Yandex">Yandex</option>
+
                 <option value="Stack Overflow">Stack Overflow</option>
+                <option value="Github">Github</option>
+                <option value="Lifewire">Lifewire</option>
+
                 <option value="Debian">Debian</option>
-                <option value="nyt">New York Times</option>
-                <option value="redhat">Redhat</option>
-                <option value="plf">Puppy Linux Fourms</option>
-                <option value="diswat">Distrowatch</option>
-                <option value="reddit">Reddit</option>
-                <option value="tik">Tiktok</option>
-                <option value="lifewire">Lifewire</option>
-                <option value="github">Github</option>
-                <option value="wikiped">Wikipedia</option>
-                <option value="yandex">Yandex</option>
-                <option value="scratch">Scratch</option>
+                <option value="Redhat">Redhat</option>
+                <option value="Puppy Linux Forums">Puppy Linux Forums</option>
+                <option value="Distrowatch">Distrowatch</option>
+
+                <option value="Youtube">Youtube</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Reddit">Reddit</option>
+                <option value="TikTok">TikTok</option>
+
+                <option value="New York Times">New York Times</option>
+                <option value="Google News">Google News</option>
+
+                <option value="Link">Link</option>
+                <option value="Wikipedia">Wikipedia</option>
+                <option value="Scratch">Scratch</option>
+                <option value="Internet Archive">Internet Archive</option>
             </select>
         </form>
 
         <br>
 
-        <div onKeyPress="return searchit(event)">
+        <div onKeyPress="return search(event)">
             <form>
                 <input placeholder="Search..." class="searchBar" id="thmas-input-text" type="text">
             </form>
@@ -65,7 +71,7 @@
 
         <div>
             <form>
-                <input id="thmas-button" type="button" onclick="searchit(0)" value="Search!">
+                <input id="thmas-button" type="button" onclick="search(0)" value="Search!">
             </form>
         </div>
 

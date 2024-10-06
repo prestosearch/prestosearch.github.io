@@ -1,0 +1,36 @@
+23 Websites, 1 Tool    |
+Search Engines ========|=========================================================
+Google                 | https://www.google.com/search?q=
+Yahoo                  | https://search.yahoo.com/search?p=
+DuckDuckGo             | https://duckduckgo.com/?q=
+Bing                   | https://www.bing.com/search?q=
+America Online         | https://search.aol.com/aol/search?q=
+Swisscows              | https://swisscows.com/en/web?query=
+Yandex                 | https://yandex.com/search/?text=
+                       |
+Tech ==================|=========================================================
+Stack Overflow         | https://stackoverflow.com/search?q=
+Github                 | https://github.com/search?q=
+Lifewire               | https://www.lifewire.com/search?q=
+                       |
+Linux =================|=========================================================
+Debian                 | https://search.debian.org/?q=
+Redhat                 | https://www.redhat.com/en/search?search=
+Puppy Linux Forums     | https://forum.puppylinux.com/search.php?keywords=
+Distrowatch            | https://distrowatch.com/table.php?distribution=
+                       |
+Social Media ==========|=========================================================
+Youtube                | https://www.youtube.com/results?search_query=
+Twitter                | https://twitter.com/search?q=
+Reddit                 | https://www.reddit.com/search/?q=
+TikTok                 | https://www.tiktok.com/search?q=
+                       |
+News ==================|=========================================================
+New York Times         | https://www.nytimes.com/search?query=
+Google News            | https://news.google.com/search?q=
+                       |
+Other =================|=========================================================
+Link                   | https://
+Wikipedia              | https://en.wikipedia.org/w/index.php?search=
+Scratch                | https://scratch.mit.edu/search/projects?q=
+Internet Archive       | https://archive.org/search?query=
