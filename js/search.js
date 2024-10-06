@@ -1,4 +1,17 @@
 const thmasInputText = document.querySelector('#thmas-input-text');
+data = `
+{
+    "DuckDuckGo": "https://duckduckgo.com/?q=",
+    "Debian": "https://search.debian.org/?q=",
+    "Stack Overflow": "https://stackoverflow.com/search?q="
+}
+`
+
+
+
+    console.log(data);
+
+    var result = JSON.parse(data);
 
 function searchit(e) {
 
@@ -8,6 +21,14 @@ function searchit(e) {
         var value = e.value;
         var text = e.options[e.selectedIndex].text;
     
+        console.log(value)
+        urlg = result[value]
+        console.log(urlg)
+        var URL = urlg + thmasInputText.value;
+        console.log(URL);
+        window.open(URL, "_blank");
+
+        /*
         if (value === "google") {
             var URL = "https://www.google.com/search?q=" + thmasInputText.value;
             var win = window.open(URL, "_blank");
@@ -17,11 +38,7 @@ function searchit(e) {
             var URL = "https://search.yahoo.com/search?p=" + thmasInputText.value;
             var win = window.open(URL, "_blank");
         }
-        
-        if (value === "debian") {
-            var URL = "https://search.debian.org/cgi-bin/omega?DB=en&P=" + thmasInputText.value;
-            var win = window.open(URL, "_blank");
-        }
+    
         
         if (value === "stacover") {
             var URL = "https://stackoverflow.com/search?q=" + thmasInputText.value;
@@ -35,11 +52,6 @@ function searchit(e) {
         
         if (value === "link") {
             var URL = "https://" + thmasInputText.value;
-            var win = window.open(URL, "_blank");
-        }
-        
-        if (value === "ddg") {
-            var URL = "https://duckduckgo.com/?t=h_&q=" + thmasInputText.value;
             var win = window.open(URL, "_blank");
         }
         
@@ -95,34 +107,34 @@ function searchit(e) {
         
         if (value === "tik") {
             var URL = "https://www.tiktok.com/search?q=" + thmasInputText.value;
-            var win = window.open(URL, "_blank");
+            window.open(URL, "_blank");
         }
 
         if (value === "lifewire") {
             var URL = "https://www.lifewire.com/search?q=" + thmasInputText.value;
-            var win = window.open(URL, "_blank");
+            window.open(URL, "_blank");
         }
 
         if (value === "github") {
             var URL = "https://github.com/search?q=" + thmasInputText.value;
-            var win = window.open(URL, "_blank");
+            window.open(URL, "_blank");
         }
 
         if (value === "wikiped") {
             var URL = "https://en.wikipedia.org/w/index.php?search=" + thmasInputText.value;
-            var win = window.open(URL, "_blank");
+            window.open(URL, "_blank");
         }
         
         if (value === "yandex") {
             var URL = "https://yandex.com/search/?text=" + thmasInputText.value;
-            var win = window.open(URL, "_blank");
+            window.open(URL, "_blank");
         }
 
         if (value === "scratch") {
             var URL = "https://scratch.mit.edu/search/projects?q=" + thmasInputText.value;
-            var win = window.open(URL, "_blank");
+            window.open(URL, "_blank");
         }
-
+        */
     }
  
 }
