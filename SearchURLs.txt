@@ -34,5 +34,3 @@ Link                   | https://
 Wikipedia              | https://en.wikipedia.org/w/index.php?search=
 Scratch                | https://scratch.mit.edu/search/projects?q=
 Internet Archive       | https://archive.org/search?query=
-
-https://codebeautify.org/jsonminifier
